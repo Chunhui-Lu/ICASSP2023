@@ -24,7 +24,7 @@
     </article>
 
 
-    <p><b>Authors</b>: placeholder  </p>
+    <p><b>Authors</b>: Chunhui Lu, Xue Wen, Ruolan Liu, Xiao Chen</p>
 
 
 
@@ -38,5 +38,55 @@ placeholder
     </div>
 
 
-
-
+<h2>Multi-speaker emotional speech synthesis</h2>
+<h3>Emotional speaker</h3>
+<table>
+  <tbody>
+    <tr>
+      <td>Speaker</td>
+      <td>Reference</td>
+      <td>Method</td>
+      <td>Angry</td>
+      <td>Happy</td>
+      <td>Neutral</td>
+      <td>Sad</td>
+    </tr>
+    <tr>
+      <th rowspan="5">EF1</th>
+      <th rowspan="5"><audio controls=""><source src="samples/GT/fneu_0005.wav"></audio></th>
+      <th rowspan="5">GT</th>
+      <td><audio controls=""><source src="samples/GT/fang_0002.wav"></audio></td>
+      <td><audio controls=""><source src="samples/GT/fhap_0003.wav"></audio></td>
+      <td><audio controls=""><source src="samples/GT/fneu_0004.wav"></audio></td>
+      <td><audio controls=""><source src="samples/GT/fsad_0004.wav"></audio></td>
+    </tr>
+    <tr>
+      <th rowspan="5">BASE-EMB</th>
+      <td><audio controls=""><source src="samples/EMB/zz-ang_002.wav"></audio></td>
+      <td><audio controls=""><source src="samples/EMB/zz-hap_003.wav"></audio></td>
+      <td><audio controls=""><source src="samples/EMB/zz-neu_004.wav"></audio></td>
+      <td><audio controls=""><source src="samples/EMB/zz-sad_004.wav"></audio></td>
+    </tr>
+    <tr>
+      <th rowspan="5">BASE-GST</th>
+      <td><audio controls=""><source src="samples/GT/fang_0002.wav"></audio></td>
+      <td><audio controls=""><source src="samples/GT/fhap_0003.wav"></audio></td>
+      <td><audio controls=""><source src="samples/GT/fneu_0005.wav"></audio></td>
+      <td><audio controls=""><source src="samples/GT/fsad_0004.wav"></audio></td>
+    </tr>
+    <tr>
+      <th rowspan="5">OURS-TRANS</th>
+      <td><audio controls=""><source src="samples/GT/fang_0002.wav"></audio></td>
+      <td><audio controls=""><source src="samples/GT/fhap_0003.wav"></audio></td>
+      <td><audio controls=""><source src="samples/GT/fneu_0005.wav"></audio></td>
+      <td><audio controls=""><source src="samples/GT/fsad_0004.wav"></audio></td>
+    </tr>
+    <tr>
+      <th rowspan="5">OURS-SYN</th>
+      <td><audio controls=""><source src="samples/GT/fang_0002.wav"></audio></td>
+      <td><audio controls=""><source src="samples/GT/fhap_0003.wav"></audio></td>
+      <td><audio controls=""><source src="samples/GT/fneu_0005.wav"></audio></td>
+      <td><audio controls=""><source src="samples/GT/fsad_0004.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
