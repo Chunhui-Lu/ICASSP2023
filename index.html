@@ -39,7 +39,7 @@ placeholder
 
 
 <h2>Multi-speaker emotional speech synthesis</h2>
-<h3>Emotional speaker</h3>
+<h3>Emotional speakers</h3>
 <table>
   <tbody>
     <tr>
@@ -50,6 +50,15 @@ placeholder
       <td align="center">Happy</td>
       <td align="center">Neutral</td>
       <td align="center">Sad</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td align="center">碰上我们算他们倒霉</td>
+      <td align="center">宝宝太有意思了</td>
+      <td align="center">设备保持更新</td>
+      <td align="center">第一场比赛以失败而告终</td>
     </tr>
     <tr>
       <th rowspan="5">EF1</th>
@@ -124,6 +133,81 @@ placeholder
       <td><audio controls=""><source src="samples/SYN/wc-hap_003.wav"></audio></td>
       <td><audio controls=""><source src="samples/SYN/wc-neu_004.wav"></audio></td>
       <td><audio controls=""><source src="samples/SYN/wc-sad_004.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Neutral speakers</h3>
+<table>
+  <tbody>
+    <tr>
+      <td>Speaker</td>
+      <td align="center">Reference</td>
+      <td>Method</td>
+      <td align="center">Angry</td>
+      <td align="center">Happy</td>
+      <td align="center">Neutral</td>
+      <td align="center">Sad</td>
+    </tr>
+    <tr>
+      <th rowspan="5">NF1</th>
+      <th rowspan="5"><audio controls=""><source src="samples/GT/009-ref2.wav"></audio></th>
+      <th>BASE-EMB</th>
+      <td><audio controls=""><source src="samples/EMB/009-ang_002.wav"></audio></td>
+      <td><audio controls=""><source src="samples/EMB/009-hap_003.wav"></audio></td>
+      <td><audio controls=""><source src="samples/EMB/009-neu_004.wav"></audio></td>
+      <td><audio controls=""><source src="samples/EMB/009-sad_004.wav"></audio></td>
+    </tr>
+    <tr>
+      <th>BASE-GST</th>
+      <td><audio controls=""><source src="samples/GST/009-ang_002.wav"></audio></td>
+      <td><audio controls=""><source src="samples/GST/009-hap_003.wav"></audio></td>
+      <td><audio controls=""><source src="samples/GST/009-neu_004.wav"></audio></td>
+      <td><audio controls=""><source src="samples/GST/009-sad_004.wav"></audio></td>
+    </tr>
+    <tr>
+      <th>OURS-TRANS</th>
+      <td><audio controls=""><source src="samples/TRANS/009-ang_002.wav"></audio></td>
+      <td><audio controls=""><source src="samples/TRANS/009-hap_003.wav"></audio></td>
+      <td>&nbsp;</td>
+      <td><audio controls=""><source src="samples/TRANS/009-sad_004.wav"></audio></td>
+    </tr>
+    <tr>
+      <th>OURS-SYN</th>
+      <td><audio controls=""><source src="samples/SYN/009-ang_002.wav"></audio></td>
+      <td><audio controls=""><source src="samples/SYN/009-hap_003.wav"></audio></td>
+      <td><audio controls=""><source src="samples/SYN/009-neu_004.wav"></audio></td>
+      <td><audio controls=""><source src="samples/SYN/009-sad_004.wav"></audio></td>
+    </tr>
+    <tr>
+      <th rowspan="5">NM1</th>
+      <th rowspan="5"><audio controls=""><source src="samples/GT/157-ref.wav"></audio></th>
+      <th>BASE-EMB</th>
+      <td><audio controls=""><source src="samples/EMB/157-ang_002.wav"></audio></td>
+      <td><audio controls=""><source src="samples/EMB/157-hap_003.wav"></audio></td>
+      <td><audio controls=""><source src="samples/EMB/157-neu_004.wav"></audio></td>
+      <td><audio controls=""><source src="samples/EMB/157-sad_004.wav"></audio></td>
+    </tr>
+    <tr>
+      <th>BASE-GST</th>
+      <td><audio controls=""><source src="samples/GST/157-ang_002.wav"></audio></td>
+      <td><audio controls=""><source src="samples/GST/157-hap_003.wav"></audio></td>
+      <td><audio controls=""><source src="samples/GST/157-neu_004.wav"></audio></td>
+      <td><audio controls=""><source src="samples/GST/157-sad_004.wav"></audio></td>
+    </tr>
+    <tr>
+      <th>OURS-TRANS</th>
+      <td><audio controls=""><source src="samples/TRANS/157-ang_002.wav"></audio></td>
+      <td><audio controls=""><source src="samples/TRANS/157-hap_003.wav"></audio></td>
+      <td>&nbsp;</td>
+      <td><audio controls=""><source src="samples/TRANS/157-sad_004.wav"></audio></td>
+    </tr>
+    <tr>
+      <th>OURS-SYN</th>
+      <td><audio controls=""><source src="samples/SYN/157-ang_002.wav"></audio></td>
+      <td><audio controls=""><source src="samples/SYN/157-hap_003.wav"></audio></td>
+      <td><audio controls=""><source src="samples/SYN/157-neu_004.wav"></audio></td>
+      <td><audio controls=""><source src="samples/SYN/157-sad_004.wav"></audio></td>
     </tr>
   </tbody>
 </table>
