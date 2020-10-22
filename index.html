@@ -33,12 +33,20 @@
         </br> We present an end-to-end system for multi-speaker emotional speech synthesis. 
     In particular, our system learns emotion classes from just two speakers then generalizes these classes to other speakers from whom no emotional data was seen. We address the problem by integrating disentangled, fine-grained prosody features with global, sentence-level emotion embedding. These fine-grained features learn to represent local prosodic variations disentangled from speaker, tone and global emotion label. Compared to systems that model emotions at sentence level only, our method achieves higher ratings in naturalness and expressiveness, while retaining comparable speaker similarity ratings. </br></br>
 
-
-
     </div>
 
+    &nbsp;
 
-<h2>Multi-speaker emotional speech synthesis</h2>
+
+
+<p>This pages contains a set of speech samples used in out subjective evaluations.<b>All utterances were unseen in training.</b></p>
+ &nbsp;
+    <div>
+      <b>Note:</b>
+      <span style="background-color: #FFFF00">To obtain the best quality, we strongly recommend readers to listen to the audio samples with headphones.</span>
+    </div>
+ &nbsp;
+
 <h3>Emotional speakers</h3>
 <table>
   <tbody>
@@ -208,6 +216,29 @@
       <td><audio controls=""><source src="samples/SYN/157-hap_003.wav"></audio></td>
       <td><audio controls=""><source src="samples/SYN/157-neu_004.wav"></audio></td>
       <td><audio controls=""><source src="samples/SYN/157-sad_004.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+
+&nbsp;
+<h3> The effect of emotional phoneme duration models</h3>
+<table>
+  <tbody>
+    <tr>
+      <th>Speaker-Emotion</th>
+      <th>Duration input predicted with target emotion</th>
+      <th>Duration input predicted with neutral emotion</th>
+    </tr>
+  </tbody>
+</table>
+&nbsp;
+<h3>the  effect  of  global  embedding in the presence of phoneme-level embedding</h3>
+<table>
+  <tbody>
+    <tr>
+      <th>Speaker-Emotion</th>
+      <th>with sentence-level embedding</th>
+      <th>without sentence-level embedding</th>
     </tr>
   </tbody>
 </table>
