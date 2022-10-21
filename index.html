@@ -45,18 +45,13 @@
   
 <ul>
 <li>Toplines: Reconstructing target speech</li> 
-<b>GT</b>: analysis-synthesis with the HiFi-GAN vocoder.
-  
-<b>GT-RECON</b>: analysis-synthesis by the proposed system via z=(z<sub>a</sub>,z<sub>p</sub>,z<sub>v</sub>).
-  
-<b>GT-TRANS</b>: analysis-synthesis by the proposed system via z=(z<sub>a</sub>',z<sub>p</sub>',z<sub>v</sub>), where z<sub>a</sub>' and z<sub>p</sub>' are encoded from random utterances of other speakers. For assessing the contribution of z_v alone.
+<b>GT</b>: analysis-synthesis with the HiFi-GAN vocoder.<br>
+<b>GT-RECON</b>: analysis-synthesis by the proposed system via z=(z<sub>a</sub>,z<sub>p</sub>,z<sub>v</sub>).<br>
+<b>GT-TRANS</b>: analysis-synthesis by the proposed system via z=(z<sub>a</sub>',z<sub>p</sub>',z<sub>v</sub>), where z<sub>a</sub>' and z<sub>p</sub>' are encoded from random utterances of other speakers. For assessing the contribution of z<sub>v</sub> alone.<br>
 <li>Proposed system and variants for ablation study:</li>
-<b>SYN-ALL</b>: voice cloning TTS. Main system.
-  
-<b>SYN-VA</b>: without using prosody embedding 
-  
-<b>SYN-VP</b>: without using accent embedding 
-  
+<b>SYN-ALL</b>: voice cloning TTS. Main system.<br>
+<b>SYN-VA</b>: without using prosody embedding <br>
+<b>SYN-VP</b>: without using accent embedding<br>
 <b>SYN-V</b>: without using accent or prosody embedding
 <li>Two baseline systems:</li>
 <b>FS+dvector</b>: Multi-speaker FastSpeech with speaker code from pre-trained speaker verification model .
